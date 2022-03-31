@@ -1,0 +1,151 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin-top: 0%;
+    padding: 0%;
+}
+.screen-bg{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Empoddy3.jpg);
+}
+.screen-bg p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor{
+    width: 50%;
+    color: white;
+    position:absolute ;
+    text-align: center;
+}
+.anchor button{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent ;
+    position: relative;
+    cursor: pointer;
+}
+.anchor button:hover{
+    border: 1px solid blue;
+    background: blue;
+    transition: 1s
+}
+.text{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/solidgrey.jpg);    
+}
+.textuu{
+    width: 90%;
+    color: black;
+    position:absolute ;
+    text-align: center;
+}
+.texting{
+    margin-top: 7%;
+    display: flex;    
+    justify-content: space-between;
+    
+}
+.texting{
+    flex-basis: 31%;
+    background: rgb(184, 121, 121);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.content{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/solidblack.jpg);
+    
+    
+}
+.content h2{
+    text-align: center;
+    color: white;
+}
+
+.info{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Solidblue.jpg);
+}
+.infor h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+}
+.needs{
+width: 100%;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/solidgrey.jpg);
+}
+.contact{
+    background-color: rgb(99, 117, 117);
+    width: 50%;
+    float: left;
+    align-items: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.about{
+    background-color: rgb(69, 65, 90);
+    width: 50%;
+    float: right;
+    align-items: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.power{ 
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(images/solidbrown.jpg);
+    
+}
+.powered{
+    
+    display: flex;    
+    justify-content: space-between;
+    
+    text-justify: auto;
+}
